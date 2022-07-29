@@ -1,0 +1,121 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.40.141'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  BaseShm.cpp
+  Codec.cpp
+  CodecFactory.cpp
+  Hash.cpp
+  main.cpp
+  Message.pb.cc
+  OCCIOP.cpp
+  RequestCodec.cpp
+  RequestFactory.cpp
+  RespondCodec.cpp
+  RespondFactory.cpp
+  RsaCrypto.cpp
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(39,56): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(39,56): warning :   BIO* bio = BIO_new_mem_buf(keystr.data(), keystr.size());
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(39,56): warning :                                                         ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(68,18): warning : value computed is not used [-Wunused-value]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(68,18): warning :   BIO_flush(pubIO);
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(68,18): warning :                   ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(75,19): warning : value computed is not used [-Wunused-value]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(75,19): warning :   BIO_flush(priBio);
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(75,19): warning :                    ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(125,41): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(125,41): warning :   int ret = RSA_public_encrypt(data.size(), (const unsigned char*)data.data(),
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(125,41): warning :                                          ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(175,73): warning : conversion to ‘unsigned int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(175,73): warning :   int ret = RSA_sign(level, (const unsigned char*)data.data(), data.size(), (unsigned char*)signBuf,
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(175,73): warning :                                                                          ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(192,75): warning : conversion to ‘unsigned int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(192,75): warning :   int ret = RSA_verify(level, (const unsigned char*)data.data(), data.size(),
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(192,75): warning :                                                                            ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(213,17): warning : value computed is not used [-Wunused-value]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(213,17): warning :   BIO_flush(bs64);
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(213,17): warning :                  ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(224,24): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(224,24): warning :   int length = str.size();
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RsaCrypto.cpp(224,24): warning :                         ^
+  SecKeyShm.cpp
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\SecKeyShm.cpp(7,25): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\SecKeyShm.cpp(13,30): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\SecKeyShm.cpp(86,6): warning : unused variable ‘ret’ [-Wunused-variable]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\SecKeyShm.cpp(86,6): warning :   int ret = 0;
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\SecKeyShm.cpp(86,6): warning :       ^
+  ServerOP.cpp
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(30,30): warning : conversion to ‘short unsigned int’ from ‘Json::Value::Int {aka int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(30,30): warning :   m_port = root["Port"].asInt();
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(30,30): warning :                               ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(37,11): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(37,11): warning :   m_dbUser = "SECMNG";
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(37,11): warning :            ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(38,10): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(38,10): warning :   m_dbPwd = "SECMNG";
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(38,10): warning :           ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(39,14): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(166,17): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(166,17): warning :   srand(time(NULL));
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(166,17): warning :                  ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(169,13): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(169,13): warning :   char *cs = "~!@#$%^&*()_+}{|\';[]";
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp(169,13): warning :              ^
+  TcpServer.cpp
+  TcpSocket.cpp
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(75,33): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(75,33): warning :    int dataLen = sendData.size() + 4;
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(75,33): warning :                                  ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(85,36): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(85,36): warning :    int netlen = htonl(sendData.size());
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(85,36): warning :                                     ^
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(407,17): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(407,17): warning :     return count - nleft;
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\TcpSocket.cpp(407,17): warning :                  ^
+  Linking objects
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘RequestMsg : error : MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 294：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 305：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 316：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 327：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘RequestMsg : error : SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 370：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 376：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 382：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 388：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘RequestMsg : error : InternalSerializeWithCachedSizesToArray(unsigned char*) const’中：
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘RespondMsg : error : MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 772：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 783：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 794：对‘google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::string*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘RespondMsg : error : SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 842：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 848：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\Message.pb.cc : error : 854：对‘google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int, std::string const&, google::protobuf::io::CodedOutputStream*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘RespondMsg : error : InternalSerializeWithCachedSizesToArray(unsigned char*) const’中：
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+/usr/local/include/google/protobuf/wire_format_lite.h : error : 1681：对‘google::protobuf::io::CodedOutputStream::WriteStringWithSizeToArray(std::string const&, unsigned char*)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o：在函数‘google : error : protobuf::internal::GetEmptyStringAlreadyInited()’中：
+/usr/local/include/google/protobuf/message_lite.h : error : 148：对‘google::protobuf::internal::fixed_address_empty_string’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o : error : (.rodata._ZTV10RespondMsg[_ZTV10RespondMsg]+0x20)：对‘google::protobuf::Message::GetTypeName() const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o : error : (.rodata._ZTV10RespondMsg[_ZTV10RespondMsg]+0x58)：对‘google::protobuf::Message::InitializationErrorString() const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o : error : (.rodata._ZTV10RequestMsg[_ZTV10RequestMsg]+0x20)：对‘google::protobuf::Message::GetTypeName() const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\Message.pb.o : error : (.rodata._ZTV10RequestMsg[_ZTV10RequestMsg]+0x58)：对‘google::protobuf::Message::InitializationErrorString() const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\RequestCodec.o：在函数‘RequestCodec : error : encodeMsg()’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RequestCodec.cpp : error : 35：对‘google::protobuf::MessageLite::SerializeToString(std::string*) const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\RequestCodec.o：在函数‘RequestCodec : error : decodeMsg()’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RequestCodec.cpp : error : 41：对‘google::protobuf::MessageLite::ParseFromString(std::string const&)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\RespondCodec.o：在函数‘RespondCodec : error : encodeMsg()’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RespondCodec.cpp : error : 35：对‘google::protobuf::MessageLite::SerializeToString(std::string*) const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\RespondCodec.o：在函数‘RespondCodec : error : decodeMsg()’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\RespondCodec.cpp : error : 41：对‘google::protobuf::MessageLite::ParseFromString(std::string const&)’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\obj\x64\Debug\ServerOP.o：在函数‘ServerOP : error : ServerOP(std::string)’中：
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp : error : 31：对‘Json::Value::asString() const’未定义的引用
+D:\学习\资料\第5阶段-跨平台企业项目实战\第5阶段-跨平台企业项目实战\day12 - 外联接口-项目总结\04-代码\ServerSeckey\ServerSeckey\ServerOP.cpp : error : 46：对‘Json::Value::asString() const’未定义的引用
+collect2 : error : ld returned 1 exit status
