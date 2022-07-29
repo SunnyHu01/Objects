@@ -1,0 +1,9 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.40.139'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Linking objects
+g++ : error : /home/hy209070063/projects/TcpServer/obj/x64/Debug/main.o: 没有那个文件或目录
+g++ : error : /home/hy209070063/projects/TcpServer/obj/x64/Debug/TcpServer.o: 没有那个文件或目录
+g++ : error : /home/hy209070063/projects/TcpServer/obj/x64/Debug/TcpSocket.o: 没有那个文件或目录
